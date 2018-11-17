@@ -8,7 +8,7 @@ COPY docker-compose.yml /meeting
 
 RUN \
     cd meeting && \
-    sudo docker-compose up -d
+    docker-compose up
 
 EXPOSE 80 8443 8080
 
