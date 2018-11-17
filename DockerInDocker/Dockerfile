@@ -7,7 +7,7 @@ COPY .env /meeting
 COPY docker-compose.yml /meeting
 
 RUN \
-    systemctl start docker
+    docker start 
 
 RUN \
     cd meeting && \
