@@ -7,6 +7,9 @@ COPY .env /meeting
 COPY docker-compose.yml /meeting
 
 RUN \
+    docker service start
+
+RUN \
     cd meeting && \
     docker-compose up
 
