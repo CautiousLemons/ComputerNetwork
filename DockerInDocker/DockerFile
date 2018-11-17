@@ -4,7 +4,6 @@ RUN \
     mkdir -p meeting
 
 COPY .env /meeting
-
 COPY docker-compose.yml /meeting
 
 RUN \
