@@ -1,4 +1,4 @@
-FROM docker/docker/compose
+FROM docker/compose
 
 RUN \
     mkdir -p meeting
